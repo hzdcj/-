@@ -1,0 +1,38 @@
+﻿生成启动时间为 2017/5/20 11:28:59。
+     1>项目“E:\cnsoftcup\Huawei\Huawei\Huawei.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /IE:\boost_1_63_0 /IE:\jsoncpp\include /I"C:\Program Files\MySQL\Connector.C++ 1.1\include" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt http_server.cpp
+         http_server.cpp
+         Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+         - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+         - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+         Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+     1>c:\program files\mysql\connector.c++ 1.1\include\cppconn\sqlstring.h(39): warning C4251: “sql::SQLString::realStr”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“sql::SQLString”的客户端使用
+     1>c:\program files\mysql\connector.c++ 1.1\include\cppconn\exception.h(61): warning C4251: “sql::SQLException::sql_state”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“sql::SQLException”的客户端使用
+     1>c:\program files\mysql\connector.c++ 1.1\include\cppconn\exception.h(145): warning C4251: “sql::SQLUnsupportedOptionException::option”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 struct“sql::SQLUnsupportedOptionException”的客户端使用
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\cnsoftcup\Huawei\x64\Release\Huawei.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"E:\boost_1_63_0\lib64-msvc-12.0" /LIBPATH:E:\jsoncpp\libs /LIBPATH:"C:\Program Files\MySQL\Connector.C++ 1.1\lib\opt" "libboost_system-vc120-mt-1_63.lib" "boost_timer-vc120-mt-1_63.lib" json_vc71_libmt.lib mysqlcppconn.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\cnsoftcup\Huawei\x64\Release\Huawei.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\cnsoftcup\Huawei\x64\Release\Huawei.lib" /MACHINE:X64 x64\Release\base64.obj
+         x64\Release\cilin.obj
+         x64\Release\connection.obj
+         x64\Release\connection_manager.obj
+         x64\Release\http_server.obj
+         x64\Release\interest_cf.obj
+         x64\Release\io_service_pool.obj
+         x64\Release\json_parser.obj
+         x64\Release\main.obj
+         x64\Release\mime_types.obj
+         x64\Release\mysql_manager.obj
+         x64\Release\mysql_pool.obj
+         x64\Release\reply.obj
+         x64\Release\request_handler.obj
+         x64\Release\request_parser.obj
+         x64\Release\user_cf.obj
+         x64\Release\word_similarity.obj
+         正在生成代码
+         已完成代码的生成
+         Huawei.vcxproj -> E:\cnsoftcup\Huawei\x64\Release\Huawei.exe
+     1>已完成生成项目“E:\cnsoftcup\Huawei\Huawei\Huawei.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:16.31

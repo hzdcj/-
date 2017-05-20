@@ -1,0 +1,54 @@
+﻿生成启动时间为 2017/5/11 15:08:15。
+     1>项目“E:\cnsoftcup\Huawei\Huawei\Huawei.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files\MySQL\Connector.C++ 1.1\include" /IE:\boost_1_63_0 /IE:\jsoncpp\include /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt cilin.cpp main.cpp
+         main.cpp
+         Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+         - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+         - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+         Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+     1>c:\program files\mysql\connector.c++ 1.1\include\cppconn\sqlstring.h(39): warning C4251: “sql::SQLString::realStr”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“sql::SQLString”的客户端使用
+     1>c:\program files\mysql\connector.c++ 1.1\include\cppconn\exception.h(61): warning C4251: “sql::SQLException::sql_state”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“sql::SQLException”的客户端使用
+     1>c:\program files\mysql\connector.c++ 1.1\include\cppconn\exception.h(145): warning C4251: “sql::SQLUnsupportedOptionException::option”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 struct“sql::SQLUnsupportedOptionException”的客户端使用
+     1>e:\cnsoftcup\huawei\huawei\word_similarity.h(43): warning C4305: “初始化”: 从“double”到“const float”截断
+     1>e:\cnsoftcup\huawei\huawei\word_similarity.h(44): warning C4305: “初始化”: 从“double”到“const float”截断
+     1>e:\cnsoftcup\huawei\huawei\word_similarity.h(45): warning C4305: “初始化”: 从“double”到“const float”截断
+     1>e:\cnsoftcup\huawei\huawei\cilin.h(12): warning C4305: “初始化”: 从“double”到“const float”截断
+     1>e:\cnsoftcup\huawei\huawei\cilin.h(13): warning C4305: “初始化”: 从“double”到“const float”截断
+     1>e:\cnsoftcup\huawei\huawei\cilin.h(14): warning C4305: “初始化”: 从“double”到“const float”截断
+     1>e:\cnsoftcup\huawei\huawei\cilin.h(15): warning C4305: “初始化”: 从“double”到“const float”截断
+     1>e:\cnsoftcup\huawei\huawei\cilin.h(17): warning C4305: “初始化”: 从“double”到“const float”截断
+     1>e:\cnsoftcup\huawei\huawei\cilin.h(18): warning C4305: “初始化”: 从“double”到“const float”截断
+         cilin.cpp
+     1>e:\cnsoftcup\huawei\huawei\cilin.h(12): warning C4305: “初始化”: 从“double”到“const float”截断
+     1>e:\cnsoftcup\huawei\huawei\cilin.h(13): warning C4305: “初始化”: 从“double”到“const float”截断
+     1>e:\cnsoftcup\huawei\huawei\cilin.h(14): warning C4305: “初始化”: 从“double”到“const float”截断
+     1>e:\cnsoftcup\huawei\huawei\cilin.h(15): warning C4305: “初始化”: 从“double”到“const float”截断
+     1>e:\cnsoftcup\huawei\huawei\cilin.h(17): warning C4305: “初始化”: 从“double”到“const float”截断
+     1>e:\cnsoftcup\huawei\huawei\cilin.h(18): warning C4305: “初始化”: 从“double”到“const float”截断
+     1>cilin.cpp(287): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>cilin.cpp(331): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+     1>cilin.cpp(340): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+         正在生成代码...
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\cnsoftcup\Huawei\x64\Debug\Huawei.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\MySQL\Connector.C++ 1.1\lib\opt" /LIBPATH:"E:\boost_1_63_0\lib64-msvc-12.0" /LIBPATH:E:\jsoncpp\libs "boost_timer-vc120-mt-1_63.lib" "boost_system-vc120-mt-1_63.lib" mysqlcppconn.lib json_vc71_libmtd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\cnsoftcup\Huawei\x64\Debug\Huawei.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\cnsoftcup\Huawei\x64\Debug\Huawei.lib" /MACHINE:X64 x64\Debug\base64.obj
+         x64\Debug\cilin.obj
+         x64\Debug\connection.obj
+         x64\Debug\connection_manager.obj
+         x64\Debug\http_server.obj
+         x64\Debug\interest_cf.obj
+         x64\Debug\json_parser.obj
+         x64\Debug\main.obj
+         x64\Debug\mime_types.obj
+         x64\Debug\mysql_manager.obj
+         x64\Debug\reply.obj
+         x64\Debug\request_handler.obj
+         x64\Debug\request_parser.obj
+         x64\Debug\user_cf.obj
+         x64\Debug\word_similarity.obj
+         Huawei.vcxproj -> E:\cnsoftcup\Huawei\x64\Debug\Huawei.exe
+     1>已完成生成项目“E:\cnsoftcup\Huawei\Huawei\Huawei.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:07.04

@@ -1,0 +1,123 @@
+﻿生成启动时间为 2017/4/19 19:03:53。
+     1>项目“E:\cnsoftcup\Huawei\Huawei\Huawei.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt connection.cpp connection_manager.cpp http_server.cpp main.cpp mime_types.cpp reply.cpp request_handler.cpp request_parser.cpp
+         request_parser.cpp
+     1>e:\cnsoftcup\huawei\huawei\request_parser.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\cnsoftcup\huawei\huawei\request_parser.hpp(60): error C2059: 语法错误:“{”
+     1>e:\cnsoftcup\huawei\huawei\request_parser.hpp(60): error C2334: “{”的前面有意外标记；跳过明显的函数体
+     1>e:\cnsoftcup\huawei\huawei\request_parser.hpp(79): error C4430: 缺少类型说明符 - 假定为 int。注意:  C++ 不支持默认 int
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(8): error C2065: “method_start”: 未声明的标识符
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(9): error C2614: “http::server::request_parser”: 非法的成员初始化:“state_”不是基或成员
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(14): error C2065: “state_”: 未声明的标识符
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(14): error C2065: “method_start”: 未声明的标识符
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(19): error C2065: “state_”: 未声明的标识符
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(19): error C2050: switch 表达式不是整型
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(21): error C2065: “method_start”: 未声明的标识符
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(21): error C2051: case 表达式不是常量
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(28): error C2065: “state_”: 未声明的标识符
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(28): error C2065: “method”: 未声明的标识符
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(32): error C2065: “method”: 未声明的标识符
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(32): error C2051: case 表达式不是常量
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(35): error C2065: “state_”: 未声明的标识符
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(35): error C2065: “uri”: 未声明的标识符
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(47): error C2065: “uri”: 未声明的标识符
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(47): error C2051: case 表达式不是常量
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(50): error C2065: “state_”: 未声明的标识符
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(50): error C2065: “http_version_h”: 未声明的标识符
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(62): error C2065: “http_version_h”: 未声明的标识符
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(62): error C2051: case 表达式不是常量
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(65): error C2065: “state_”: 未声明的标识符
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(65): error C2065: “http_version_t_1”: 未声明的标识符
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(72): error C2065: “http_version_t_1”: 未声明的标识符
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(72): error C2051: case 表达式不是常量
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(75): error C2065: “state_”: 未声明的标识符
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(75): error C2065: “http_version_t_2”: 未声明的标识符
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(82): error C2065: “http_version_t_2”: 未声明的标识符
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(82): error C2051: case 表达式不是常量
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(85): error C2065: “state_”: 未声明的标识符
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(85): error C2065: “http_version_p”: 未声明的标识符
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(92): error C2065: “http_version_p”: 未声明的标识符
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(92): error C2051: case 表达式不是常量
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(95): error C2065: “state_”: 未声明的标识符
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(95): error C2065: “http_version_slash”: 未声明的标识符
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(102): error C2065: “http_version_slash”: 未声明的标识符
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(102): error C2051: case 表达式不是常量
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(107): error C2065: “state_”: 未声明的标识符
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(107): error C2065: “http_version_major_start”: 未声明的标识符
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(114): error C2065: “http_version_major_start”: 未声明的标识符
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(114): error C2051: case 表达式不是常量
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(118): error C2065: “state_”: 未声明的标识符
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(118): error C2065: “http_version_major”: 未声明的标识符
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(125): error C2065: “http_version_major”: 未声明的标识符
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(125): error C2051: case 表达式不是常量
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(128): error C2065: “state_”: 未声明的标识符
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(128): error C2065: “http_version_minor_start”: 未声明的标识符
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(140): error C2065: “http_version_minor_start”: 未声明的标识符
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(140): error C2051: case 表达式不是常量
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(144): error C2065: “state_”: 未声明的标识符
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(144): error C2065: “http_version_minor”: 未声明的标识符
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(151): error C2065: “http_version_minor”: 未声明的标识符
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(151): error C2051: case 表达式不是常量
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(154): error C2065: “state_”: 未声明的标识符
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(154): error C2065: “expecting_newline_1”: 未声明的标识符
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(166): error C2065: “expecting_newline_1”: 未声明的标识符
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(166): error C2051: case 表达式不是常量
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(169): error C2065: “state_”: 未声明的标识符
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(169): error C2065: “header_line_start”: 未声明的标识符
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(176): error C2065: “header_line_start”: 未声明的标识符
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(176): error C2051: case 表达式不是常量
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(179): error C2065: “state_”: 未声明的标识符
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(179): error C2065: “expecting_newline_3”: 未声明的标识符
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(184): error C2065: “state_”: 未声明的标识符
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(184): error C2065: “header_lws”: 未声明的标识符
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(195): error C2065: “state_”: 未声明的标识符
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(195): error C2065: “header_name”: 未声明的标识符
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(198): error C2065: “header_lws”: 未声明的标识符
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(198): error C2051: case 表达式不是常量
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(201): error C2065: “state_”: 未声明的标识符
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(201): error C2065: “expecting_newline_2”: 未声明的标识符
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(214): error C2065: “state_”: 未声明的标识符
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(214): error C2065: “header_value”: 未声明的标识符
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(218): error C2065: “header_name”: 未声明的标识符
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(218): error C2051: case 表达式不是常量
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(221): error C2065: “state_”: 未声明的标识符
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(221): error C2065: “space_before_header_value”: 未声明的标识符
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(233): error C2065: “space_before_header_value”: 未声明的标识符
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(233): error C2051: case 表达式不是常量
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(236): error C2065: “state_”: 未声明的标识符
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(236): error C2065: “header_value”: 未声明的标识符
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(243): error C2065: “header_value”: 未声明的标识符
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(243): error C2051: case 表达式不是常量
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(246): error C2065: “state_”: 未声明的标识符
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(246): error C2065: “expecting_newline_2”: 未声明的标识符
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(258): error C2065: “expecting_newline_2”: 未声明的标识符
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(258): error C2051: case 表达式不是常量
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(261): error C2065: “state_”: 未声明的标识符
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(261): error C2065: “header_line_start”: 未声明的标识符
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(268): error C2065: “expecting_newline_3”: 未声明的标识符
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(268): error C2051: case 表达式不是常量
+     1>e:\cnsoftcup\huawei\huawei\request_parser.cpp(272): warning C4065: switch 语句包含“default”但是未包含“case”标签
+         request_handler.cpp
+     1>e:\cnsoftcup\huawei\huawei\request_handler.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\cnsoftcup\huawei\huawei\request_handler.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\cnsoftcup\huawei\huawei\reply.hpp(6): fatal error C1083: 无法打开包括文件: “boost/asio.hpp”: No such file or directory
+         reply.cpp
+     1>e:\cnsoftcup\huawei\huawei\reply.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\cnsoftcup\huawei\huawei\reply.hpp(6): fatal error C1083: 无法打开包括文件: “boost/asio.hpp”: No such file or directory
+         mime_types.cpp
+         main.cpp
+     1>e:\cnsoftcup\huawei\huawei\main.cpp(3): fatal error C1083: 无法打开包括文件: “boost/asio.hpp”: No such file or directory
+         http_server.cpp
+     1>e:\cnsoftcup\huawei\huawei\http_server.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\cnsoftcup\huawei\huawei\http_server.hpp(3): fatal error C1083: 无法打开包括文件: “boost/asio.hpp”: No such file or directory
+         connection_manager.cpp
+     1>e:\cnsoftcup\huawei\huawei\connection.hpp(5): fatal error C1083: 无法打开包括文件: “boost/asio.hpp”: No such file or directory
+         connection.cpp
+     1>e:\cnsoftcup\huawei\huawei\connection.hpp(5): fatal error C1083: 无法打开包括文件: “boost/asio.hpp”: No such file or directory
+         正在生成代码...
+     1>已完成生成项目“E:\cnsoftcup\Huawei\Huawei\Huawei.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:03.08
